@@ -108,6 +108,12 @@
       margin-top: 1.2rem;
     }
 
+
+    #mattis-image img {
+      border-radius: 4px;
+    }
+
+
     .button {
       display: inline-block;
       margin-top: 0.8rem;
