@@ -40,7 +40,7 @@ body {
     OLD: Gold
     NEW: Purple. This is now your secondary "wisdom" accent.
     */
-    color: #483369;
+    color: #a28031;
     letter-spacing: 0.22em;
     font-weight: 400;
     margin-top: 0.4rem;
@@ -55,7 +55,7 @@ body {
     OLD: Purple
     NEW: Gold. Matches H1 for a clear, high-vibe hierarchy.
     */
-    color: #571a65;
+    color: #2b223a;
     text-transform: uppercase;
     font-weight: 400;
     margin-top: 3.4rem;
@@ -68,7 +68,7 @@ body {
     /*
     This light purple harmonizes with the H2 subtitle. Good to keep.
     */
-    color: #483369;
+    color: #2b223a;
     text-transform: uppercase;
     opacity: 0.9;
     margin-top: 1.8rem;
