@@ -3,11 +3,11 @@ body {
     padding: 50px 20px;
     /* BASE: Still our light, elegant "parchment" beige. 
     */
-    background: #ffeaa0;
+    background: #b81db6;
     /*
     TEXT: Still our deep, desaturated purple-gray. Not black.
     */
-    color: #4a4458;
+    color: #ffd0fd;
     font-family: "Spectral", serif;
     line-height: 1.7;
   }
@@ -18,7 +18,7 @@ body {
   
   h1 {
     font-family: "Cormorant Unicase", serif;
-    font-size: clamp(2.4rem, 8vw, 3.5rem);
+    font-size: clamp(3.8rem, 12vw, 6rem);
     letter-spacing: 0.18em;
     margin-bottom: 1.4rem;
     /*
@@ -26,10 +26,10 @@ body {
     OLD: Purple
     NEW: Gold. This is now your primary "solar" heading color.
     */
-    color: #af8736;
+    color: #f7f2be;
     text-transform: uppercase;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1;
   }
   h2 {
     font-family: "Cormorant Unicase", serif;
@@ -40,7 +40,7 @@ body {
     OLD: Gold
     NEW: Purple. This is now your secondary "wisdom" accent.
     */
-    color: #a28031;
+    color: #f7f2be;
     letter-spacing: 0.22em;
     font-weight: 400;
     margin-top: 0.4rem;
@@ -55,7 +55,7 @@ body {
     OLD: Purple
     NEW: Gold. Matches H1 for a clear, high-vibe hierarchy.
     */
-    color: #2b223a;
+    color: #ffefff;
     text-transform: uppercase;
     font-weight: 400;
     margin-top: 3.4rem;
@@ -68,11 +68,11 @@ body {
     /*
     This light purple harmonizes with the H2 subtitle. Good to keep.
     */
-    color: #2b223a;
+    color: #ffefff;
     text-transform: uppercase;
     opacity: 0.9;
-    margin-top: 1.8rem;
-    margin-bottom: 3.2em;
+    margin-top: 2.8rem;
+    margin-bottom: 5.2em;
   }
   
   p {
@@ -87,12 +87,12 @@ body {
   */
   a,
   a:active {
-    color: #67186b;
+    color: rgb(251, 175, 255);
     text-decoration: none;
   }
   a:hover {
     /* On hover, pulls in the "divine" purple for harmony */
-    color: #a33ac0;
+    color: #ffffff;
     text-decoration: none;
   }
   
@@ -121,10 +121,10 @@ body {
   }
   li {
     margin-bottom: 0.3rem;
-    color: #4a4458;
+    color: #ffd0fd;
   }
   li::marker {
-    color: #483369; /* Light purple bullets */
+    color: #f8b6f6; /* Light purple bullets */
   }
   
   hr {
@@ -178,8 +178,8 @@ body {
   }
   .button:hover {
     /* A slightly deeper, richer Cerise on hover */
-    background-color: #531578;
-    border-color: #531578;
+    background-color: #8239ad;
+    border-color: #8239ad;
     color: #faf8f2;
     opacity: 1;
   }
@@ -189,7 +189,7 @@ body {
     /*
     Light, purple-gray. Harmonized. Keep.
     */
-    color: #826d4a;
+    color: #e153e1;
     margin-top: 1.6rem;
     line-height: 1.8rem;
   }
