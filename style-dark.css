@@ -15,7 +15,7 @@
     h1 {
       font-family: "Cormorant Unicase", serif;
       /* responsive size */
-      font-size: clamp(2.4rem, 8vw, 3.5rem);
+      font-size: clamp(3.8rem, 12vw, 6rem);
       letter-spacing: 0.18em;
       margin-bottom: 1.4rem;
       color: #f7f2be;
@@ -58,10 +58,15 @@
       margin-top: 0.4rem;
     }
 
-    a, a:active, a:hover {
+    a, a:active {
       color: white;
       text-decoration: underline;
       text-decoration-color: grey;
+    }
+
+    a:hover {
+      color: #f7f2be;
+      text-decoration-color: #f7f2be;
     }
 
     ol, ul {
