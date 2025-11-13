@@ -93,7 +93,7 @@ body {
   a:hover {
     /* On hover, pulls in the "divine" purple for harmony */
     color: #a33ac0;
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   /*
@@ -171,15 +171,15 @@ body {
     OLD: Purple
     NEW: Cerise. The "spell" color is now your call to action.
     */
-    border: 1px solid #c5347c;
+    border: 1px solid #531578;
     color: #faf8f2; /* Light "paper" text */
-    background-color: #c5347c;
+    background-color: #531578;
     transition: all 0.2s ease-in-out;
   }
   .button:hover {
     /* A slightly deeper, richer Cerise on hover */
-    background-color: #a82b69;
-    border-color: #a82b69;
+    background-color: #531578;
+    border-color: #531578;
     color: #faf8f2;
     opacity: 1;
   }
@@ -189,13 +189,13 @@ body {
     /*
     Light, purple-gray. Harmonized. Keep.
     */
-    color: #562267;
+    color: #826d4a;
     margin-top: 1.6rem;
     line-height: 1.8rem;
   }
   
   .note a {
-    color: #c5347c; /* Cerise */
+    color: #562267; /* Cerise */
     text-decoration: none;
   }
   .note a:hover {
