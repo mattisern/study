@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 50px 20px;
+    /* BASE: Still our light, elegant "parchment" beige. 
+    */
+    background: #ffeaa0;
+    /*
+    TEXT: Still our deep, desaturated purple-gray. Not black.
+    */
+    color: #4a4458;
+    font-family: "Spectral", serif;
+    line-height: 1.7;
+  }
+  .wrapper {
+    max-width: 660px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-family: "Cormorant Unicase", serif;
+    font-size: clamp(2.4rem, 8vw, 3.5rem);
+    letter-spacing: 0.18em;
+    margin-bottom: 1.4rem;
+    /*
+    [THE SHIFT]
+    OLD: Purple
+    NEW: Gold. This is now your primary "solar" heading color.
+    */
+    color: #af8736;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  h2 {
+    font-family: "Cormorant Unicase", serif;
+    font-size: clamp(1.2rem, 4.5vw, 1.7rem);
+    font-style: italic;
+    /*
+    [THE SHIFT]
+    OLD: Gold
+    NEW: Purple. This is now your secondary "wisdom" accent.
+    */
+    color: #a28031;
+    letter-spacing: 0.22em;
+    font-weight: 400;
+    margin-top: 0.4rem;
+    opacity: 1; /* Keep this at 1 */
+  }
+  h3 {
+    font-family: "Cormorant Unicase", serif;
+    font-size: 1.6rem;
+    letter-spacing: 0.24em;
+    /*
+    [THE SHIFT]
+    OLD: Purple
+    NEW: Gold. Matches H1 for a clear, high-vibe hierarchy.
+    */
+    color: #2b223a;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 3.4rem;
+    margin-bottom: 0rem;
+  }
+  
+  .meta {
+    font-size: 0.9rem;
+    letter-spacing: 0.16em;
+    /*
+    This light purple harmonizes with the H2 subtitle. Good to keep.
+    */
+    color: #2b223a;
+    text-transform: uppercase;
+    opacity: 0.9;
+    margin-top: 1.8rem;
+    margin-bottom: 3.2em;
+  }
+  
+  p {
+    font-size: 1.22rem;
+    line-height: 2.2rem;
+    margin-bottom: 1.3em;
+    margin-top: 0.4rem;
+  }
+  
+  /*
+  "SPELL" COLOR: Keep Cerise for links.
+  */
+  a,
+  a:active {
+    color: #67186b;
+    text-decoration: none;
+  }
+  a:hover {
+    /* On hover, pulls in the "divine" purple for harmony */
+    color: #a33ac0;
+    text-decoration: none;
+  }
+  
+  /*
+  "BOOK OF KEYS": This gradient is still solid.
+  */
+  .hr-gradient {
+    width: 100%;
+    height: 1px;
+    margin: 2rem 0;
+    background: linear-gradient(
+      90deg,
+      #d4a74d 0%,    /* Gold */
+      #c7ccd9 33%,   /* Silver */
+      #244975 66%,   /* Cerulean */
+      #711ea4 100%   /* Purp */
+
+    );
+  }
+  
+  ol,
+  ul {
+    font-size: 1.22rem;
+    padding-left: 2.4rem;
+    margin-bottom: 1.4rem;
+  }
+  li {
+    margin-bottom: 0.3rem;
+    color: #4a4458;
+  }
+  li::marker {
+    color: #483369; /* Light purple bullets */
+  }
+  
+  hr {
+    border: none;
+    /* Faint line using the light purple */
+    border-top: 1px solid rgba(122, 72, 197, 0.15);
+    margin: 2.4em 0;
+  }
+  
+  /* No changes to images or facilitator block */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  #mattis {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    margin-top: 0.5rem;
+    margin-bottom: 2.4rem;
+  }
+  #mattis-text {
+    flex: 1 1 60%;
+    padding-right: 0.6rem;
+  }
+  #mattis-image {
+    flex: 0 0 auto;
+    max-width: 180px;
+    margin-top: 1.2rem;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    padding: 0.7rem 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border-radius: 999px;
+    /*
+    [THE BIG SHIFT: "LIVING AS SPELL"]
+    OLD: Purple
+    NEW: Cerise. The "spell" color is now your call to action.
+    */
+    border: 1px solid #531578;
+    color: #faf8f2; /* Light "paper" text */
+    background-color: #531578;
+    transition: all 0.2s ease-in-out;
+  }
+  .button:hover {
+    /* A slightly deeper, richer Cerise on hover */
+    background-color: #531578;
+    border-color: #531578;
+    color: #faf8f2;
+    opacity: 1;
+  }
+  
+  .note {
+    font-size: 0.86rem;
+    /*
+    Light, purple-gray. Harmonized. Keep.
+    */
+    color: #826d4a;
+    margin-top: 1.6rem;
+    line-height: 1.8rem;
+  }
+  
+  .note a {
+    color: #562267; /* Cerise */
+    text-decoration: none;
+  }
+  .note a:hover {
+    color: #7a48c5; /* Purple hover */
+  }
+  
+  .top {
+    text-align: center;
+  }
+  p.cost {
+    margin-bottom: 0.5rem;
+  }
+  p.img-text {
+    text-align: right;
+    font-size: 0.8rem;
+    color: #aea8b9;
+    line-height: 1.2;
+    margin: 0.3rem 0 0;
+  }
+  
+  /* Mobile adjustments - no changes needed */
+  @media (max-width: 640px) {
+    body {
+      padding: 32px 16px;
+    }
+    .meta {
+      font-size: 0.8rem;
+      letter-spacing: 0.14em;
+    }
+    #mattis {
+      flex-direction: column-reverse;
+      gap: 1rem;
+      align-items: flex-start;
+      margin-bottom: 1.4rem;
+    }
+    #mattis-image {
+      max-width: 280px;
+      margin-top: 0.2rem;
+    }
+    #mattis-image img {
+      width: 100%;
+      height: auto;
+    }
+    #mattis-text {
+      padding-right: 0;
+    }
+    h3 {
+      margin-top: 2.2rem;
+    }
+  }
