@@ -11,6 +11,13 @@ body {
     max-width: 660px;
     margin: 0 auto;
   }
+
+
+ li {
+    font-size: 1.22rem;
+    line-height: 2.2rem;
+  }
+  
   
   .top {
     text-align: center;
