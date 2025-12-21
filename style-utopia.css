@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 50px 20px;
+  /* A warm, luminous beige that feels "breathable" */
+  background: #fdfbf7; 
+  color: #2a2a2a;
+  font-family: "Spectral", serif;
+  line-height: 1.7;
+  /* Subtle grain/texture feel can be implied by the color choice */
+}
+
+.wrapper {
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+/* Centering the hero area */
+.top {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  font-family: "Cormorant", serif;
+  font-size: clamp(3.8rem, 12vw, 6rem);
+  letter-spacing: 0.18em;
+  margin-bottom: 1.4rem;
+  /* A refined "Solar Gold" - feels like intelligence */
+  color: #a68c52; 
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.1;
+  /* A very soft "prism" shadow - the implied rainbow */
+  text-shadow: 2px 2px 0px rgba(165, 177, 194, 0.1);
+}
+
+h2 {
+  font-family: "Cormorant", serif;
+  font-size: clamp(1.1rem, 4vw, 1.5rem);
+  font-style: italic;
+  letter-spacing: 0.12em;
+  font-weight: 400;
+  margin-top: 0.4rem;
+  color: #6b705c; /* Sage/Olive grey - grounded and organic */
+  opacity: 0.9;
+}
+
+h3 {
+  font-family: "Cormorant Unicase", serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 4rem;
+  margin-bottom: 0.5rem;
+  color: #a68c52;
+  border-bottom: 1px solid rgba(166, 140, 82, 0.2);
+  display: inline-block;
+}
+
+.meta {
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #8c8c8c;
+  margin-top: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 2.1rem;
+  margin-bottom: 1.5em;
+  font-weight: 400;
+}
+
+b, strong {
+  color: #a68c52; /* Keywords pop in the solar gold */
+}
+
+a, a:active {
+  color: #2a2a2a;
+  text-decoration: underline;
+  /* A soft lavender-blue underline (the 'rainbow' hint) */
+  text-decoration-color: #cbd5e0; 
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #a68c52;
+  text-decoration-color: #a68c52;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  margin: 3em 0;
+}
+
+/* Facilitator Block - Clean & Professional */
+#mattis {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.5); /* Lifted slightly from the beige */
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+}
+
+#mattis-image {
+  flex: 0 0 auto;
+  max-width: 180px;
+}
+
+#mattis-image img {
+  width: 100%;
+  border-radius: 2px;
+  /* Keeps the photo crisp and clear-headed */
+  filter: contrast(1.02) saturate(0.9); 
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.9rem 2.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.85rem;
+  border-radius: 2px; /* Geometric/Intellectual */
+  border: 1px solid #a68c52;
+  color: #fdfbf7;
+  background-color: #a68c52;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.button:hover {
+  background-color: transparent;
+  color: #a68c52;
+  box-shadow: 0 5px 15px rgba(166, 140, 82, 0.2);
+  transform: translateY(-2px);
+}
+
+.note {
+  font-size: 0.85rem;
+  color: #8c8c8c;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.gold {
+  color: #a68c52;
+  font-weight: 500;
+}
+
+/* Mobile adjustments */
+@media (max-width: 640px) {
+  #mattis {
+    flex-direction: column-reverse;
+    padding: 1rem;
+  }
+  #mattis-image {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
