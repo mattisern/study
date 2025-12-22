@@ -3,7 +3,6 @@ body {
     padding: 50px 20px;
     background: #faf7f2; 
     color: #1a1a1a;      
-    font-family: "Spectral", serif;
     line-height: 1.7;
   }
   
@@ -11,13 +10,6 @@ body {
     max-width: 660px;
     margin: 0 auto;
   }
-
-
- li {
-    font-size: 1.22rem;
-    line-height: 2.2rem;
-  }
-  
   
   .top {
     text-align: center;
@@ -38,7 +30,7 @@ body {
     font-family: "Cormorant", serif; /* Updated name */
     font-size: clamp(1.8rem, 2.5vw, 1.7rem);
     font-style: italic;
-    letter-spacing: 0.08em; /* Updated spacing */
+    letter-spacing: 0.06em; /* Updated spacing */
     font-weight: 400;
     margin-top: 0.4rem;
     color: #73631f; 
@@ -70,9 +62,16 @@ body {
   
   p {
     font-size: 1.22rem;
+    font-family: "Spectral", "Garamond", serif;
+    word-spacing: 0.01rem;;
     line-height: 2.2rem;
     margin-bottom: 1.3em;
     margin-top: 0.4rem;
+  }
+
+ li {
+    font-size: 1.22rem;
+    line-height: 2.2rem;
   }
   
   a, a:active {
@@ -97,8 +96,8 @@ body {
     gap: 1.5rem;
     align-items: flex-start;
     margin-top: 2rem;
-    margin-bottom: 2.4rem;
-    padding: 2rem;
+    margin-bottom: 0rem;
+    padding: 2rem 2rem 1rem 2rem;
     background: white;
     border: 1px solid #eee;
   }
@@ -108,6 +107,12 @@ body {
     max-width: 180px;
   }
   
+  
+  #mattis-text {
+    margin: -1rem 0rem 0rem 0rem;
+  }
+  
+
   #mattis-image img {
     max-width: 100%;
     width: 100%;
@@ -117,7 +122,8 @@ body {
   
   .button {
     display: inline-block;
-    margin-top: 0.8rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
     padding: 0.9rem 2rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -139,9 +145,44 @@ body {
     font-size: 0.86rem;
     color: #777;
     margin-top: 1.6rem;
+    line-height: 1.8rem;
   }
   
   .gold {
     color: #bda671;
     font-weight: 600;
   }
+
+
+  @media (max-width: 640px) {
+  
+    h1 {
+      margin-top: 6rem;
+      font-size: 4rem;
+    }
+  
+    #mattis {
+      flex-direction: column-reverse;
+      gap: 1rem;
+      align-items: flex-start;
+      margin-bottom: 1.4rem;
+    }
+  
+    #mattis-image {
+      max-width: 280px;
+      margin-top: 0.2rem;
+      margin-bottom: 0;
+    }
+  
+    #mattis-image img {
+      width: 100%;
+      height: auto;
+    }
+  
+    #mattis-text {
+      margin: 0;
+      padding-right: 0;
+    }
+  
+  }
+  
