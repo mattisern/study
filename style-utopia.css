@@ -71,13 +71,14 @@ body {
 
  li {
     font-size: 1.22rem;
+    font-family: "Spectral", "Garamond", serif;
     line-height: 2.2rem;
   }
   
   a, a:active {
     color: #507294; 
-    text-decoration: underline;
-    text-decoration-color: rgba(166, 99, 122, 0.4); 
+    text-decoration: none;
+    text-decoration-color: #507294; 
   }
   
   a:hover {
